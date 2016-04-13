@@ -1,0 +1,15 @@
+core-site.xml
+        <property>
+            <name>hadoop.tmp.dir</name>
+            <value>/hadoop</value>
+        </property>
+
+        <property>
+            <name>dfs.name.dir</name>
+            <value>/hadoop/name</value>
+        </property>
+
+        <property>
+            <name>fs.default.name</name>
+            <value>hdfs://imooc:9000</value>
+        </property>
